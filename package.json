@@ -3,6 +3,7 @@
   "displayName": "Unison syntax highlighting",
   "description": "Syntax highlighting for the Unison programming language",
   "version": "0.0.1",
+  "publisher": "BenFradet",
   "engines": {
     "vscode": "^1.32.0"
   },
