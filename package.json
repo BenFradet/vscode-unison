@@ -1,25 +1,40 @@
 {
-    "name": "vscode-unison",
-    "displayName": "Unison syntax highlighting",
-    "description": "Syntax highlighting for the Unison programming language",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.32.0"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "contributes": {
-        "languages": [{
-            "id": "unison",
-            "aliases": ["Unison", "unison"],
-            "extensions": [".u", ".uu"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "unison",
-            "scopeName": "source.u",
-            "path": "./syntaxes/unison.tmLanguage.json"
-        }]
-    }
+  "name": "vscode-unison",
+  "displayName": "Unison syntax highlighting",
+  "description": "Syntax highlighting for the Unison programming language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.32.0"
+  },
+  "keywords": [
+    "unison",
+    "language",
+    "highlight",
+    "syntax"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/BenFradet/vscode-unison",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BenFradet/vscode-unison.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BenFradet/vscode-unison/issues"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "unison",
+      "aliases": ["Unison", "unison"],
+      "extensions": [".u", ".uu"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "unison",
+      "scopeName": "source.u",
+      "path": "./syntaxes/unison.tmLanguage.json"
+    }]
+  }
 }
