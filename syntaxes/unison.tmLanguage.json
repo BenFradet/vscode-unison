@@ -149,7 +149,7 @@
       }
     },
     "unsorted_keywords": {
-      "match": "(\\s|^)(let|alias|handle|in|namespace|type|effect|where)(?=\\s|$)",
+      "match": "(\\s|^)(let|alias|handle|in|namespace|type|ability|where)(?=\\s|$)",
       "captures": {
         "2": {
           "name": "keyword.control.unison"
@@ -172,10 +172,10 @@
           "name": "punctuation.definition.list.end.unison"
         },
         "5": {
-          "name": "punctuation.definition.effect.begin.unison"
+          "name": "punctuation.definition.ability.begin.unison"
         },
         "6": {
-          "name": "punctuation.definition.effect.end.unison"
+          "name": "punctuation.definition.ability.end.unison"
         },
         "7": {
           "name": "punctuation.operator.assignment.as.unison"
