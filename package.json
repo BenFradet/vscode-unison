@@ -2,7 +2,7 @@
   "name": "vscode-unison",
   "displayName": "Unison syntax highlighting",
   "description": "Syntax highlighting for the Unison programming language",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "BenFradet",
   "engines": {
     "vscode": "^1.32.0"
@@ -26,16 +26,26 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "unison",
-      "aliases": ["Unison", "unison"],
-      "extensions": [".u", ".uu"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "unison",
-      "scopeName": "source.u",
-      "path": "./syntaxes/unison.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "unison",
+        "aliases": [
+          "Unison",
+          "unison"
+        ],
+        "extensions": [
+          ".u",
+          ".uu"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "unison",
+        "scopeName": "source.u",
+        "path": "./syntaxes/unison.tmLanguage.json"
+      }
+    ]
   }
 }
