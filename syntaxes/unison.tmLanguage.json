@@ -2,25 +2,25 @@
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
   "name": "Unison",
   "patterns": [{
-    "include": "#annotation"
-  },{
-    "include": "#boolean"
-  },{
-    "include": "#case_of"
-  },{
     "include": "#comment"
   },{
-    "include": "#if"
+    "include": "#boolean"
   },{
     "include": "#numeric"
   },{
     "include": "#text"
   },{
+    "include": "#case_of"
+  },{
+    "include": "#if"
+  },{
+    "include": "#annotation"
+  },{
     "include": "#type_operators"
   },{
-    "include": "#unsorted_keywords"
-  },{
     "include": "#unsorted_reserved_chars"
+  },{
+    "include": "#unsorted_keywords"
   }],
   "repository": {
     "annotation": {
