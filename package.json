@@ -2,7 +2,7 @@
   "name": "vscode-unison",
   "displayName": "Unison syntax highlighting",
   "description": "Syntax highlighting for the Unison programming language",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "publisher": "BenFradet",
   "engines": {
     "vscode": "^1.32.0"
