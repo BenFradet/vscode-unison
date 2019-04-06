@@ -60,8 +60,6 @@
     },
     "comment": {
       "patterns": [{
-        "include": "#block_comment"
-      },{
         "include": "#line_comment"
       }]
     },
