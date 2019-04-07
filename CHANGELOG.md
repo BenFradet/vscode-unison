@@ -1,3 +1,8 @@
+## 0.0.5 - 2019-04-07
+
+Escape ':' when enclosed with quotation marks #4
+Remove support for block comments #3
+
 ## 0.0.4 - 2019-03-28
 
 Reorder patterns to put comments first #2
