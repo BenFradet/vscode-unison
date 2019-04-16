@@ -60,8 +60,15 @@
     },
     "comment": {
       "patterns": [{
+        "include": "#eof_comment"
+      },{
         "include": "#line_comment"
       }]
+    },
+    "eof_comment": {
+      "name": "comment.block.eof.unison",
+      "begin": "^---",
+      "end": "\\z"
     },
     "block_comment": {
       "name": "comment.block.unison",
