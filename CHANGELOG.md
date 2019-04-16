@@ -1,3 +1,7 @@
+## 0.0.6 - 2019-04-16
+
+Support EOF comment #5
+
 ## 0.0.5 - 2019-04-07
 
 Escape ':' when enclosed with quotation marks #4
