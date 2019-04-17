@@ -1,3 +1,7 @@
+## 0.0.7 - 2019-04-17
+
+Always highlight the 'and' and 'or' keywords #6
+
 ## 0.0.6 - 2019-04-16
 
 Support EOF comment #5
