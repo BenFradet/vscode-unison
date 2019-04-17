@@ -12,7 +12,7 @@
   },{
     "include": "#case_of"
   },{
-    "include": "#if"
+    "include": "#control"
   },{
     "include": "#annotation"
   },{
@@ -89,10 +89,10 @@
       "name": "comment.line.double-dash.unison",
       "match": "--.*$"
     },
-    "if": {
-      "match": "(\\s|^)(if|then|else|and|or)(?=\\s|^)",
+    "control": {
+      "match": "\\b(if|then|else|and|or)\\b",
       "captures": {
-        "2": {
+        "1": {
           "name": "keyword.control.unison"
         }
       }
