@@ -1,3 +1,7 @@
+## 0.0.9 - 2019-05-03
+
+Always highlight arrows #7
+
 ## 0.0.7 - 2019-04-17
 
 Always highlight the 'and' and 'or' keywords #6
