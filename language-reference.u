@@ -1,0 +1,20 @@
+timesTwo : Nat -> Nat
+timesTwo x = x * 2
+
+x | y = if x == 0 then y else x
+
+type Optional a = None | Some a
+
+unique type Suit = Hearts | Spades | Diamonds | Clubs
+
+type Point = { x : Nat, y : Nat }
+
+ability A p_1 p_2 where
+  Request_1 : Type_1
+  Request_2 : Type_2
+
+use .base.List
+
+oneTwo = take 2 [1,2,3]
+
+= : -> if then else forall handle in unique where use and or true false type ability alias let namespace case of with
