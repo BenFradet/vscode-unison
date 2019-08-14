@@ -18,3 +18,21 @@ use .base.List
 oneTwo = take 2 [1,2,3]
 
 = : -> if then else forall handle in unique where use and or true false type ability alias let namespace case of with
+
+use io
+
+program : '{IO} ()
+program = 'let
+  printLine "What is your name?"
+  name = !readLine
+  printLine ("Hello, " ++ name)
+
+-- how to find hash through ucm
+#a0v829
+#a0v829#abcde
+##Nat
+
+∀
+
+get : forall v. {Store v} v
+put : forall v. v ->{Store v} ()
