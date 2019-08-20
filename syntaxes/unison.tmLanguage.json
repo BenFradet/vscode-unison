@@ -169,7 +169,7 @@
       }
     },
     "unsorted_reserved_chars": {
-      "match": "(,)|(`)|(\\[)|(\\])|({)|(})|(@)|(\\|)",
+      "match": "(,)|(`|!)|(\\[)|(\\])|({)|(})|(@)|(\\|)",
       "captures": {
         "1": {
           "name": "punctuation.separator.delimiter.unison"
