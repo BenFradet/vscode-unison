@@ -36,3 +36,6 @@ program = 'let
 
 get : forall v. {Store v} v
 put : forall v. v ->{Store v} ()
+
+> watchout
+test> watchout
