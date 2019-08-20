@@ -20,6 +20,8 @@
   },{
     "include": "#arrow"
   },{
+    "include": "#watch"
+  },{
     "include": "#unsorted_reserved_chars"
   },{
     "include": "#unsorted_keywords"
@@ -157,6 +159,14 @@
       "captures": {
         "1": {
           "name": "keyword.other.arrow.unison"
+        }
+      }
+    },
+    "watch": {
+      "match": "^(>)",
+      "captures": {
+        "1": {
+          "name": "keyword.other.watch.expression.unison"
         }
       }
     },
