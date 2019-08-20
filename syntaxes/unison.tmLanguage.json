@@ -22,6 +22,8 @@
   },{
     "include": "#watch"
   },{
+    "include": "#test_watch"
+  },{
     "include": "#unsorted_reserved_chars"
   },{
     "include": "#unsorted_keywords"
@@ -167,6 +169,14 @@
       "captures": {
         "1": {
           "name": "keyword.other.watch.expression.unison"
+        }
+      }
+    },
+    "test_watch": {
+      "match": "^(test>)",
+      "captures": {
+        "1": {
+          "name": "keyword.other.test.watch.expression.unison"
         }
       }
     },
