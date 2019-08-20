@@ -161,7 +161,7 @@
       }
     },
     "unsorted_keywords": {
-      "match": "(\\s|^)(let|alias|handle|in|namespace|type|ability|where|unique|use)(?=\\s|$)",
+      "match": "(\\s|^)(let|alias|handle|in|namespace|type|ability|where|unique|use|with)(?=\\s|$)",
       "captures": {
         "2": {
           "name": "keyword.control.unison"
