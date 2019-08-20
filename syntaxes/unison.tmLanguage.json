@@ -175,7 +175,7 @@
           "name": "punctuation.separator.delimiter.unison"
         },
         "2": {
-          "name": "punctuation.definition.entity.unison"
+          "name": "punctuation.definition.delayed.unison"
         },
         "3": {
           "name": "punctuation.definition.list.begin.unison"
