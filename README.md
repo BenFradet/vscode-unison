@@ -11,3 +11,5 @@ This is a port of the Unison syntax highlighting for Atom available in
 
 ![Screenshot](/images/screenshot.png)
 
+This screenshot uses [the OneDark-Pro theme](https://github.com/Binaryify/OneDark-Pro).
+
