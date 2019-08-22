@@ -14,6 +14,7 @@
     "syntax"
   ],
   "license": "Apache-2.0",
+  "icon": "images/unison-icon.png",
   "homepage": "https://github.com/BenFradet/vscode-unison",
   "repository": {
     "type": "git",
