@@ -92,8 +92,25 @@
       }
     },
     "line_comment": {
-      "name": "comment.line.double-dash.unison",
-      "match": "--.*$"
+      "patterns": [{
+        "begin": "(^\\s+)?(?=--)",
+        "beginCaptures": {
+          "1": {
+            "name": "punctuation.whitespace.comment.leading.unison"
+          }
+        },
+        "end": "(?=$)",
+        "patterns": [{
+          "name": "comment.line.double-dash.unison",
+          "begin": "(?<!-)--(?:(?!-)|(?=--))",
+          "beginCaptures": {
+            "0": {
+              "name": "punctuation.definition.comment.unison"
+            }
+          },
+          "end": "(?=$)"
+        }]
+      }]
     },
     "control": {
       "match": "\\b(if|then|else|and|or)\\b",
