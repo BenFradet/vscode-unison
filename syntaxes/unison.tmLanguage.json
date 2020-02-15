@@ -10,7 +10,7 @@
   },{
     "include": "#text"
   },{
-    "include": "#case_of"
+    "include": "#match_with"
   },{
     "include": "#control"
   },{
@@ -56,8 +56,8 @@
       "match": "false",
       "name": "constant.language.boolean.false.unison"
     },
-    "case_of": {
-      "match": "(\\s|^)(case|of|->)(?=\\s|$)",
+    "match_with": {
+      "match": "(\\s|^)(match|with|->)(?=\\s|$)",
       "captures": {
         "2": {
           "name": "keyword.control.case.unison"

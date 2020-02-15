@@ -38,7 +38,7 @@ put : forall v. v ->{Store v} ()
 > watchout
 test> watchout
 
-case 1 + 1 of
+match 1 + 1 with
   x@4 -> x * 2
   y@2 -> y + 1
   _   -> 22
