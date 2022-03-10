@@ -13,3 +13,8 @@ This is a port of the Unison syntax highlighting for Atom available in
 
 This screenshot uses [the OneDark-Pro theme](https://github.com/Binaryify/OneDark-Pro).
 
+## Publishing
+
+- [Get a personal access token](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token)
+- `vsce login BenFradet`
+- `vsce publish minor`
