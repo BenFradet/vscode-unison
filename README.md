@@ -1,3 +1,5 @@
+This repository is archived, use https://github.com/unisonweb/vscode-unison/ instead.
+
 # vscode-unison
 
 Unison syntax highlighting for VS Code
